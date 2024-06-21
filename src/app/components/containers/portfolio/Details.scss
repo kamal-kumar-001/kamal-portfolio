@@ -1,0 +1,68 @@
+// ProjectDetail.scss
+.ProjectDetail {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #171616;
+    height: 150%;
+    overflow-y: auto;
+  
+    &__header {
+      text-align: center;
+      margin-bottom: 20px;
+  
+      h1 {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+      }
+  
+      p {
+        font-size: 1.2rem;
+        color: #666;
+      }
+    }
+  
+    &__images {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+  
+      img {
+        max-width: 45%;
+        height: auto;
+        margin: 10px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+    }
+  
+    &__content {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+  
+      &__tech, &__details, &__additional {
+        background: #171616;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+        h2 {
+          font-size: 1.8rem;
+          margin-bottom: 10px;
+        }
+  
+        p, li {
+          font-size: 1.1rem;
+          color: #333;
+        }
+  
+        ul {
+          list-style-type: disc;
+          padding-left: 20px;
+        }
+      }
+    }
+  }
+  

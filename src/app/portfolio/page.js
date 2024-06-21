@@ -1,14 +1,14 @@
 "use client";
 import Head from "next/head";
-import Home from "./components/containers/home";
-import MainLayout from "./components/MainLayout";
+import MainLayout from "../components/MainLayout";
+import Portfolio from "../components/containers/portfolio";
 
 
 export default function Index() {
   return (
     <>
       <Head>
-        <title>Kamal | Home</title>
+        <title>Kamal | Portfolio</title>
         <link rel="icon" href="/logo.png" />
         <meta name="title" content="Kamal" />
         <meta
@@ -35,7 +35,7 @@ export default function Index() {
         <meta property="twitter:image" content="https://kamal-001.github.io/og.png" />
       </Head>
       <MainLayout>
-      <Home />
+      <Portfolio />
       </MainLayout>
     </>
   );
