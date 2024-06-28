@@ -42,17 +42,17 @@ export const personalDataContact = [
     },
     {
         icon: <BsTelephoneFill size={15} />,
-        value: <a href={'tel:+919254551582'} target={"_blank"}  rel="noopener noreferrer">+919254551582</a>
+        value: <a href={'tel:+919254551582'} target={"_blank"} rel="noopener noreferrer">+919254551582</a>
         // value: '+919254551582'
     },
     {
         icon: <GrMail size={15} />,
-        value: <a href={'mailto:kkhatiwal1@gmail.com'} target={"_blank"}  rel="noopener noreferrer">kkhatiwal1@gmail.com</a>
+        value: <a href={'mailto:kkhatiwal1@gmail.com'} target={"_blank"} rel="noopener noreferrer">kkhatiwal1@gmail.com</a>
         // value: 'kkhatiwal1@gmail.com'
     },
     {
         icon: <BsInstagram size={15} />,
-        value: <a href={'https://instagram.com/kamal_khatiwal?igshid=YmMyMTA2M2Y='} target={"_blank"}  rel="noopener noreferrer">@kamal_khatiwal</a>
+        value: <a href={'https://instagram.com/kamal_khatiwal?igshid=YmMyMTA2M2Y='} target={"_blank"} rel="noopener noreferrer">@kamal_khatiwal</a>
         // value: '@_kamal__001_'
     },
 
@@ -60,10 +60,67 @@ export const personalDataContact = [
 
 export const portfolioData = [
     {
-        projectName: 'Sweet Fruit',
+        projectName: 'Chanchal Veer Foundation',
+        img: '/images/chanchal.png',
+        projectData: {
+            title: 'My Chanchal Veer Foundation Project',
+            description: 'A brief description of my awesome project.',
+            images: [
+                '/images/chanchal.png',
+                '/images/chanchal.png',
+                // '/images/2.jpeg'
+            ],
+            keyFeatures: ['Admin pannel', 'MongoDB', 'Nodemailer'],
+            technologies: ['NextJS', 'TailwindCSS', 'MongoDB', 'Nodemailer'],
+            details: 'This project was built to solve problem X. It includes features A, B, and C. The development process involved... (more details here).',
+            role: 'Full Stack Developer',
+            challenges: 'The main challenges faced were integrating the API, managing state with Redux, and optimizing performance.',
+            link: 'https://chanchal-foundation.vercel.app/',
+            repository: 'Private repository'
+        }
+    },
+    {
+        projectName: 'FilmJet',
+        img: '/images/filmjet.png',
+        projectData: {
+            title: 'My FilmJet Project',
+            description: 'A brief description of my awesome project.',
+            images: [
+                '/images/filmjet.png',
+                '/images/filmjet.png',
+            ],
+            technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Sass'],
+            details: 'This project was built to solve problem X. It includes features A, B, and C. The development process involved... (more details here).',
+            role: 'Full Stack Developer',
+            challenges: 'The main challenges faced were integrating the API, managing state with Redux, and optimizing performance.',
+            link: 'https://flimjet.vercel.app/',
+            repository: 'https://github.com/kamal-kumar-001/flimjet'
+        }
+    },
+    {
+        projectName: 'UPSCprep',
+        img: '/images/upscprep.png',
+        projectData: {
+            title: 'My UPSCprep Project',
+            description: 'A brief description of my awesome project.',
+            images: [
+                '/images/upscprep.png',
+                '/images/upscprep.png',
+                // '/images/upscprep.png'
+            ],
+            technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Sass'],
+            details: 'This project was built to solve problem X. It includes features A, B, and C. The development process involved... (more details here).',
+            role: 'Full Stack Developer',
+            challenges: 'The main challenges faced were integrating the API, managing state with Redux, and optimizing performance.',
+            link: 'https://www.upscprep.com/',
+            repository: 'private repository'
+        }
+    },
+    {
+        projectName: 'Delicious Apple',
         img: '/images/2.jpeg',
         projectData: {
-            title: 'My Sweet Fruit Project',
+            title: 'My Delicious Apple Project',
             description: 'A brief description of my awesome project.',
             images: [
                 '/images/2.jpeg',
@@ -78,101 +135,44 @@ export const portfolioData = [
             repository: 'https://github.com/username/project-repo'
         }
     },
-        {
-            projectName: 'Good Present',
-            img: '/images/2.jpeg',
-            projectData: {
-                title: 'My Good Present Project',
-                description: 'A brief description of my awesome project.',
-                images: [
-                    '/images/2.jpeg',
-                    '/images/2.jpeg',
-                    '/images/2.jpeg'
-                ],
-                technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Sass'],
-                details: 'This project was built to solve problem X. It includes features A, B, and C. The development process involved... (more details here).',
-                role: 'Full Stack Developer',
-                challenges: 'The main challenges faced were integrating the API, managing state with Redux, and optimizing performance.',
-                link: 'https://liveproject.com',
-                repository: 'https://github.com/username/project-repo'
-            }
-        },
-        {
-            projectName: 'Moucap Cream',
-            img: '/images/2.jpeg',
-            projectData: {
-                title: 'My Moucap Cream Project',
-                description: 'A brief description of my awesome project.',
-                images: [
-                    '/images/2.jpeg',
-                    '/images/2.jpeg',
-                    '/images/2.jpeg'
-                ],
-                technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Sass'],
-                details: 'This project was built to solve problem X. It includes features A, B, and C. The development process involved... (more details here).',
-                role: 'Full Stack Developer',
-                challenges: 'The main challenges faced were integrating the API, managing state with Redux, and optimizing performance.',
-                link: 'https://liveproject.com',
-                repository: 'https://github.com/username/project-repo'
-            }
-        },
-        {
-            projectName: 'Delicious Apple',
-            img: '/images/2.jpeg',
-            projectData: {
-                title: 'My Delicious Apple Project',
-                description: 'A brief description of my awesome project.',
-                images: [
-                    '/images/2.jpeg',
-                    '/images/2.jpeg',
-                    '/images/2.jpeg'
-                ],
-                technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Sass'],
-                details: 'This project was built to solve problem X. It includes features A, B, and C. The development process involved... (more details here).',
-                role: 'Full Stack Developer',
-                challenges: 'The main challenges faced were integrating the API, managing state with Redux, and optimizing performance.',
-                link: 'https://liveproject.com',
-                repository: 'https://github.com/username/project-repo'
-            }
-        },
-        {
-            projectName: 'Blue Lemon',
-            img: '/images/2.jpeg',
-            projectData: {
-                title: 'My Blue Lemon Project',
-                description: 'A brief description of my awesome project.',
-                images: [
-                    '/images/2.jpeg',
-                    '/images/2.jpeg',
-                    '/images/2.jpeg'
-                ],
-                technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Sass'],
-                details: 'This project was built to solve problem X. It includes features A, B, and C. The development process involved... (more details here).',
-                role: 'Full Stack Developer',
-                challenges: 'The main challenges faced were integrating the API, managing state with Redux, and optimizing performance.',
-                link: 'https://liveproject.com',
-                repository: 'https://github.com/username/project-repo'
-            }
-        },
-        {
-            projectName: 'Sweet Cheery',
-            img: '/images/2.jpeg',
-            projectData: {
-                title: 'My Sweet Cheery Project',
-                description: 'A brief description of my awesome project.',
-                images: [
-                    '/images/2.jpeg',
-                    '/images/2.jpeg',
-                    '/images/2.jpeg'
-                ],
-                technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Sass'],
-                details: 'This project was built to solve problem X. It includes features A, B, and C. The development process involved... (more details here).',
-                role: 'Full Stack Developer',
-                challenges: 'The main challenges faced were integrating the API, managing state with Redux, and optimizing performance.',
-                link: 'https://liveproject.com',
-                repository: 'https://github.com/username/project-repo'
-            }
-        },
+    {
+        projectName: 'Blue Lemon',
+        img: '/images/2.jpeg',
+        projectData: {
+            title: 'My Blue Lemon Project',
+            description: 'A brief description of my awesome project.',
+            images: [
+                '/images/2.jpeg',
+                '/images/2.jpeg',
+                '/images/2.jpeg'
+            ],
+            technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Sass'],
+            details: 'This project was built to solve problem X. It includes features A, B, and C. The development process involved... (more details here).',
+            role: 'Full Stack Developer',
+            challenges: 'The main challenges faced were integrating the API, managing state with Redux, and optimizing performance.',
+            link: 'https://liveproject.com',
+            repository: 'https://github.com/username/project-repo'
+        }
+    },
+    {
+        projectName: 'Sweet Cheery',
+        img: '/images/2.jpeg',
+        projectData: {
+            title: 'My Sweet Cheery Project',
+            description: 'A brief description of my awesome project.',
+            images: [
+                '/images/2.jpeg',
+                '/images/2.jpeg',
+                '/images/2.jpeg'
+            ],
+            technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Sass'],
+            details: 'This project was built to solve problem X. It includes features A, B, and C. The development process involved... (more details here).',
+            role: 'Full Stack Developer',
+            challenges: 'The main challenges faced were integrating the API, managing state with Redux, and optimizing performance.',
+            link: 'https://liveproject.com',
+            repository: 'https://github.com/username/project-repo'
+        }
+    },
 ]
 
 export const personalData = [
@@ -195,12 +195,12 @@ export const personalData = [
     {
         icon: <BsTelephoneFill size={15} />,
         // value: '+919254551582',
-        value: <a href={'tel:+919254551582'} target={"_blank"}  rel="noopener noreferrer">+919254551582</a>,
+        value: <a href={'tel:+919254551582'} target={"_blank"} rel="noopener noreferrer">+919254551582</a>,
         class: 'value'
     },
     {
         icon: <GrMail size={15} />,
-        value: <a href={'mailto:kkhatiwal1@gmail.com'} target={"_blank"}  rel="noopener noreferrer">kkhatiwal1@gmail.com</a>,
+        value: <a href={'mailto:kkhatiwal1@gmail.com'} target={"_blank"} rel="noopener noreferrer">kkhatiwal1@gmail.com</a>,
         // value: 'kkhatiwal1@gmail.com',
         class: 'value'
     },

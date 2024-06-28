@@ -20,6 +20,14 @@ function ProjectDetail({ project }) {
           <br/>
       <div className="ProjectDetail__content text-xl">
         <div className="ProjectDetail__tech">
+          <strong>Key Features </strong>
+          <ul>
+            {project.keyFeatures?.map((keyF, index) => (
+              <li key={index}>{keyF}</li>
+            ))}
+          </ul>
+        </div>
+        <div className="ProjectDetail__tech">
           <strong>Technologies Used</strong>
           <ul>
             {project.technologies?.map((tech, index) => (
