@@ -53,7 +53,6 @@ export const personalDataContact = [
     {
         icon: <BsInstagram size={15} />,
         value: <a href={'https://instagram.com/kamal_khatiwal?igshid=YmMyMTA2M2Y='} target={"_blank"} rel="noopener noreferrer">@kamal_khatiwal</a>
-        // value: '@_kamal__001_'
     },
 
 ]
@@ -64,7 +63,7 @@ export const portfolioData = [
         img: '/images/chanchal.png',
         projectData: {
             title: 'My Chanchal Veer Foundation Project',
-            description: 'A brief description of my awesome project.',
+            description: 'A brief description of my Chanchal Veer Foundation project.',
             images: [
                 '/images/chanchal.png',
             ],
@@ -82,10 +81,11 @@ export const portfolioData = [
         img: '/images/filmjet.png',
         projectData: {
             title: 'My FilmJet Project',
-            description: 'A brief description of my awesome project.',
+            description: 'A brief description of my FilmJet project.',
             images: [
                 '/images/filmjet.png',
             ],
+            keyFeatures: ['Admin pannel', 'MongoDB', 'Nodemailer'],
             technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Sass'],
             details: 'This project was built to solve problem X. It includes features A, B, and C. The development process involved... (more details here).',
             role: 'Full Stack Developer',
@@ -99,10 +99,11 @@ export const portfolioData = [
         img: '/images/upscprep.png',
         projectData: {
             title: 'My UPSCprep Project',
-            description: 'A brief description of my awesome project.',
+            description: 'A brief description of my UPSCprep project.',
             images: [
                 '/images/upscprep.png',
             ],
+            keyFeatures: ['Admin pannel', 'MongoDB', 'Nodemailer'],
             technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Sass'],
             details: 'This project was built to solve problem X. It includes features A, B, and C. The development process involved... (more details here).',
             role: 'Full Stack Developer',
@@ -116,10 +117,11 @@ export const portfolioData = [
         img: '/images/quiz.png',
         projectData: {
             title: 'My Quiz App Project',
-            description: 'A brief description of my awesome project.',
+            description: 'A brief description of my Quiz App project.',
             images: [
                 '/images/quiz.png',
             ],
+            keyFeatures: ['Admin pannel', 'MongoDB', 'Nodemailer'],
             technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Sass'],
             details: 'This project was built to solve problem X. It includes features A, B, and C. The development process involved... (more details here).',
             role: 'Full Stack Developer',
@@ -137,6 +139,7 @@ export const portfolioData = [
             images: [
                 '/images/2.jpeg',
             ],
+            keyFeatures: ['Admin pannel', 'MongoDB', 'Nodemailer'],
             technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Sass'],
             details: 'This project was built to solve problem X. It includes features A, B, and C. The development process involved... (more details here).',
             role: 'Full Stack Developer',
@@ -154,6 +157,7 @@ export const portfolioData = [
             images: [
                 '/images/2.jpeg',
             ],
+            keyFeatures: ['Admin pannel', 'MongoDB', 'Nodemailer'],
             technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Sass'],
             details: 'This project was built to solve problem X. It includes features A, B, and C. The development process involved... (more details here).',
             role: 'Full Stack Developer',
