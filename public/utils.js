@@ -67,8 +67,6 @@ export const portfolioData = [
             description: 'A brief description of my awesome project.',
             images: [
                 '/images/chanchal.png',
-                '/images/chanchal.png',
-                // '/images/2.jpeg'
             ],
             keyFeatures: ['Admin pannel', 'MongoDB', 'Nodemailer'],
             technologies: ['NextJS', 'TailwindCSS', 'MongoDB', 'Nodemailer'],
@@ -87,7 +85,6 @@ export const portfolioData = [
             description: 'A brief description of my awesome project.',
             images: [
                 '/images/filmjet.png',
-                '/images/filmjet.png',
             ],
             technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Sass'],
             details: 'This project was built to solve problem X. It includes features A, B, and C. The development process involved... (more details here).',
@@ -105,8 +102,6 @@ export const portfolioData = [
             description: 'A brief description of my awesome project.',
             images: [
                 '/images/upscprep.png',
-                '/images/upscprep.png',
-                // '/images/upscprep.png'
             ],
             technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Sass'],
             details: 'This project was built to solve problem X. It includes features A, B, and C. The development process involved... (more details here).',
@@ -117,22 +112,20 @@ export const portfolioData = [
         }
     },
     {
-        projectName: 'Delicious Apple',
-        img: '/images/2.jpeg',
+        projectName: 'Quiz App',
+        img: '/images/quiz.png',
         projectData: {
-            title: 'My Delicious Apple Project',
+            title: 'My Quiz App Project',
             description: 'A brief description of my awesome project.',
             images: [
-                '/images/2.jpeg',
-                '/images/2.jpeg',
-                '/images/2.jpeg'
+                '/images/quiz.png',
             ],
             technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Sass'],
             details: 'This project was built to solve problem X. It includes features A, B, and C. The development process involved... (more details here).',
             role: 'Full Stack Developer',
             challenges: 'The main challenges faced were integrating the API, managing state with Redux, and optimizing performance.',
-            link: 'https://liveproject.com',
-            repository: 'https://github.com/username/project-repo'
+            link: 'https://quizjolt.vercel.app/',
+            repository: 'https://github.com/kamal-kumar-001/quiz'
         }
     },
     {
@@ -143,8 +136,6 @@ export const portfolioData = [
             description: 'A brief description of my awesome project.',
             images: [
                 '/images/2.jpeg',
-                '/images/2.jpeg',
-                '/images/2.jpeg'
             ],
             technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Sass'],
             details: 'This project was built to solve problem X. It includes features A, B, and C. The development process involved... (more details here).',
@@ -162,8 +153,6 @@ export const portfolioData = [
             description: 'A brief description of my awesome project.',
             images: [
                 '/images/2.jpeg',
-                '/images/2.jpeg',
-                '/images/2.jpeg'
             ],
             technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Sass'],
             details: 'This project was built to solve problem X. It includes features A, B, and C. The development process involved... (more details here).',
@@ -308,24 +297,24 @@ export const eduTimeline = [
     },
 
 ]
-// export const workTimeline = [
-//     {
-//         timeline: '2020-Running',
-//         workname: 'Pilayer ',
-//         work: ' Pilayer',
-//         class: "a"
-//     },
-//     {
-//         timeline: '2019-2020',
-//         workname: 'Avo ',
-//         work: 'Manager',
-//         class: "b"
-//     },
-//     {
-//         timeline: '2017-2018',
-//         workname: 'FC ',
-//         work: 'Player',
-//         class: "c"
-//     },
+export const workTimeline = [
+    {
+        timeline: '2020-Running',
+        workname: 'Pilayer ',
+        work: ' Pilayer',
+        class: "a"
+    },
+    {
+        timeline: '2019-2020',
+        workname: 'Avo ',
+        work: 'Manager',
+        class: "b"
+    },
+    {
+        timeline: '2017-2018',
+        workname: 'FC ',
+        work: 'Player',
+        class: "c"
+    },
 
-// ]
+]

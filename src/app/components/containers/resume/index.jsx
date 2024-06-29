@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.scss';
 // import ImageOne from '../../images/img.jpg';
-import { personalData, programingSkills, servicesData, languageSkills, eduTimeline } from '../../../../../public/utils';
+import { personalData, programingSkills, servicesData, languageSkills, eduTimeline, workTimeline } from '../../../../../public/utils';
 
 import HeaderText from './headerText';
 import { Circle, Line } from 'rc-progress';
@@ -72,7 +72,7 @@ const Resume = () => {
 
                         </div>
                     </div>
-                    <div className="resume__right top-[71px]">
+                    <div className="resume__right md:top-[71px] lg:top-[71px]">
 
                         <div className="sticky">
 
@@ -202,7 +202,7 @@ const Resume = () => {
                                 </div>
                             </div>
                         </div>
-                        {/* <div className="worktimeline">
+                        <div className="worktimeline">
                             <HeaderText
                                 firstText="Work"
                                 lastText="Timeline"
@@ -228,7 +228,7 @@ const Resume = () => {
                                     }
                                 </div>
                             </div>
-                        </div> */}
+                        </div>
                     </div>
                 </div>
             {/* </Animate> */}

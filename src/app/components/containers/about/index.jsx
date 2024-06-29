@@ -66,7 +66,7 @@ const About = () => {
                         </div>
                         <div className="about__right__text__description">
                             <p>
-                                My name is <span>Kamal Kumar</span>. I am a Web Developer, and I&apos;m very passionate and dedicated to my work. With 20 years experience as a professional a Web Developer, I have acquired the skills and knowledge.
+                                My name is <span>Kamal Kumar</span>. I am a Web Developer, and I&apos;m very passionate and dedicated to my work. With 2 years experience as a professional Web Developer, I have acquired the skills and knowledge.
                             </p>
                         </div>
                         <button onClick={openModal}>

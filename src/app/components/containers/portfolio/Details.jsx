@@ -15,7 +15,11 @@ function ProjectDetail({ project }) {
       </div>
 
       {project.link && (
-            <p className='text-2xl'><strong>Live Project:</strong> <a href={project.link} target="_blank" rel="noopener noreferrer">{project.link}</a></p>
+            <p className='text-2xl'><strong>Live Project:</strong> 
+            <a className='px-3' href={project.link} target="_blank" rel="noopener noreferrer">
+            {project.link}
+              </a>
+            </p>
           )}
           <br/>
       <div className="ProjectDetail__content text-xl">
