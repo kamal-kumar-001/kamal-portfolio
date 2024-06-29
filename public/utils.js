@@ -59,41 +59,42 @@ export const personalDataContact = [
 
 export const portfolioData = [
     {
-        projectName: 'Chanchal Veer Foundation',
-        img: '/images/chanchal.png',
-        projectData: {
-            title: 'My Chanchal Veer Foundation Project',
-            description: 'A brief description of my Chanchal Veer Foundation project.',
-            images: [
-                '/images/chanchal.png',
+        "projectName": "Chanchal Veer Foundation",
+        "img": "/images/chanchal.png",
+        "projectData": {
+            "title": "Chanchal Veer Foundation",
+            "description": "A comprehensive website built for the Chanchal Veer Foundation to highlight their mission and activities.",
+            "images": [
+                "/images/chanchal.png"
             ],
-            keyFeatures: ['Admin pannel', 'MongoDB', 'Nodemailer'],
-            technologies: ['NextJS', 'TailwindCSS', 'MongoDB', 'Nodemailer'],
-            details: 'This project was built to solve problem X. It includes features A, B, and C. The development process involved... (more details here).',
-            role: 'Full Stack Developer',
-            challenges: 'The main challenges faced were integrating the API, managing state with Redux, and optimizing performance.',
-            link: 'https://chanchal-foundation.vercel.app/',
-            repository: 'Private repository'
+            "keyFeatures": ["Admin panel", 'Receipt Generator','User Authentication'],
+            "technologies": ["NextJS", "TailwindCSS", "MongoDB", "Nodemailer"],
+            "details": "This project was built to provide a platform for the Chanchal Veer Foundation to showcase their initiatives, manage their events, and engage with the community. It includes features like an admin panel for content management, user authentication, and a dynamic blog section.",
+            "role": "Full Stack Developer",
+            "challenges": "The main challenges faced were integrating the API, managing state with Redux, and optimizing performance.",
+            "link": "https://chanchal-foundation.vercel.app/",
+            "repository": "Private repository"
         }
     },
     {
-        projectName: 'FilmJet',
-        img: '/images/filmjet.png',
-        projectData: {
-            title: 'My FilmJet Project',
-            description: 'A brief description of my FilmJet project.',
-            images: [
-                '/images/filmjet.png',
+        "projectName": "FilmJet",
+        "img": "/images/filmjet.png",
+        "projectData": {
+            "title": "FilmJet",
+            "description": "A movie database website designed to provide information about various films.",
+            "images": [
+                "/images/filmjet.png"
             ],
-            keyFeatures: ['Admin pannel', 'MongoDB', 'Nodemailer'],
-            technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Sass'],
-            details: 'This project was built to solve problem X. It includes features A, B, and C. The development process involved... (more details here).',
-            role: 'Full Stack Developer',
-            challenges: 'The main challenges faced were integrating the API, managing state with Redux, and optimizing performance.',
-            link: 'https://flimjet.vercel.app/',
-            repository: 'https://github.com/kamal-kumar-001/flimjet'
+            "keyFeatures": ["Movie Database", "User Reviews", "Rating System"],
+            "technologies": ["NextJS", "MongoDB", "TailwindCSS"],
+            "details": "This project was built to provide a comprehensive movie database with features like user reviews and a rating system. It includes features like an admin panel for content management, a search functionality, and responsive design.",
+            "role": "Full Stack Developer",
+            "challenges": "The main challenges faced were integrating the API, managing state with Redux, and optimizing performance.",
+            "link": "https://flimjet.vercel.app/",
+            "repository": "https://github.com/kamal-kumar-001/flimjet"
         }
-    },
+    }
+    ,
     {
         projectName: 'UPSCprep',
         img: '/images/upscprep.png',
@@ -103,7 +104,7 @@ export const portfolioData = [
             images: [
                 '/images/upscprep.png',
             ],
-            keyFeatures: ['Admin pannel', 'MongoDB', 'Nodemailer'],
+            keyFeatures: ['', '', ''],
             technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Sass'],
             details: 'This project was built to solve problem X. It includes features A, B, and C. The development process involved... (more details here).',
             role: 'Full Stack Developer',
