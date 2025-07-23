@@ -47,7 +47,7 @@ export const personalDataContact = [
     },
     {
         icon: <GrMail size={15} />,
-        value: <a href={'mailto:kkhatiwal1@gmail.com'} target={"_blank"} rel="noopener noreferrer">kkhatiwal1@gmail.com</a>
+        value: <a href={'mailto:kamal1019@iitg.ac.in'} target={"_blank"} rel="noopener noreferrer">kamal1019@iitg.ac.in</a>
         // value: 'kkhatiwal1@gmail.com'
     },
     {
