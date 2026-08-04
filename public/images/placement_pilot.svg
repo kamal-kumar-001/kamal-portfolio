@@ -1,0 +1,22 @@
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" rx="16" fill="#FFFFFF"/>
+  <rect x="1" y="1" width="398" height="398" rx="15" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="50%" y="180" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="44" fill="url(#purpleShine)" letter-spacing="1">Placement</text>
+  <text x="50%" y="250" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="48" fill="url(#darkShine)" letter-spacing="2">PILOT</text>
+  <defs>
+    <linearGradient id="purpleShine" x1="0" y1="0" x2="1" y2="0.3">
+      <stop offset="0%" stop-color="#4c1d95"/>
+      <stop offset="35%" stop-color="#6d28d9"/>
+      <stop offset="50%" stop-color="#d8b4fe"/>
+      <stop offset="65%" stop-color="#6d28d9"/>
+      <stop offset="100%" stop-color="#3b0764"/>
+    </linearGradient>
+    <linearGradient id="darkShine" x1="0" y1="0" x2="1" y2="0.3">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="35%" stop-color="#374151"/>
+      <stop offset="50%" stop-color="#9ca3af"/>
+      <stop offset="65%" stop-color="#374151"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+  </defs>
+</svg>

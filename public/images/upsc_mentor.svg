@@ -1,0 +1,22 @@
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" rx="16" fill="#FFFFFF"/>
+  <rect x="1" y="1" width="398" height="398" rx="15" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="50%" y="195" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="52" fill="url(#blueShine)" letter-spacing="2">UPSC</text>
+  <text x="50%" y="265" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="48" fill="url(#blackShine)" letter-spacing="1">MENTOR</text>
+  <defs>
+    <linearGradient id="blueShine" x1="0" y1="0" x2="1" y2="0.3">
+      <stop offset="0%" stop-color="#045fa3"/>
+      <stop offset="35%" stop-color="#057ccc"/>
+      <stop offset="50%" stop-color="#80c6ff"/>
+      <stop offset="65%" stop-color="#057ccc"/>
+      <stop offset="100%" stop-color="#034e80"/>
+    </linearGradient>
+    <linearGradient id="blackShine" x1="0" y1="0" x2="1" y2="0.3">
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="35%" stop-color="#1c1c1c"/>
+      <stop offset="50%" stop-color="#8a8a8a"/>
+      <stop offset="65%" stop-color="#1c1c1c"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,6 +1,3 @@
-// kkhatiwal1@gmail.com
-// rsjlyzyuvcpjscxd
-
 import nodemailer from 'nodemailer';
 
 export async function POST(req, res) {
